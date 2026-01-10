@@ -10,7 +10,7 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
-    path: '/Hola-Mundo',
+    path: '/Hola-Mundo/:id?',
     component: () => import('../views/HolaMundo.vue')
   },
   {
